@@ -23,7 +23,7 @@ public class GeneratePassword {
         System.out.println(b);
     }
     public  static void main(String a[]) {
-        generatePw("neusoft");
-        //dePw("neusoft","$2a$10$mvor6Gc21QENyewOEBNBnuE9TZNdtz8dK093/qJQyZCBzbPOP4Pym");
+         generatePw("neusoft");
+         //dePw("admin", "$2a$08$UkVvwpULis18S19S5pZFn.YHPZt3oaqHZnDwqbCW9pft6uFtkXKDC");
     }
 }
