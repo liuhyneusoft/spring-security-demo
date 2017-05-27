@@ -26,6 +26,7 @@
         <module name="ddddd" />
         <module name="demo" />
         <module name="demo1" />
+        <module name="sample-server" />
         <module name="spring-boot-jwt" />
       </profile>
     </annotationProcessing>
@@ -35,6 +36,7 @@
       <module name="demo" target="1.8" />
       <module name="demo1" target="1.8" />
       <module name="httprest" target="1.5" />
+      <module name="sample-server" target="1.8" />
       <module name="spring-boot-jwt" target="1.8" />
     </bytecodeTargetLevel>
   </component>

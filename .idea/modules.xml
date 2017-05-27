@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/ddddd.iml" filepath="$PROJECT_DIR$/ddddd.iml" />
       <module fileurl="file://F:/z_book/demo/demo.iml" filepath="F:/z_book/demo/demo.iml" />
       <module fileurl="file://F:/z_book/demo1/demo1.iml" filepath="F:/z_book/demo1/demo1.iml" />
+      <module fileurl="file://F:/z_book/sample-server/sample-server.iml" filepath="F:/z_book/sample-server/sample-server.iml" />
       <module fileurl="file://F:/z_book/spring-boot-jwt-demo-master/spring-boot-jwt.iml" filepath="F:/z_book/spring-boot-jwt-demo-master/spring-boot-jwt.iml" />
     </modules>
   </component>
