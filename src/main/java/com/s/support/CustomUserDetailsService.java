@@ -13,6 +13,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 
+/**
+ * spring security需要的UserDetailsService，用户验证登陆，并且关键要返回SecurityUser
+ */
 @Component
 public class CustomUserDetailsService implements UserDetailsService {
     @Autowired

@@ -5,7 +5,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 /**
  * Created by liuhaiyang on 2017/5/26.
  *
- * Bcrypt 加密
+ * Bcrypt 加密，没有你想解密的过程，只能比较明文和密文是否匹配。
+ *
  */
 public class GeneratePassword {
 

@@ -2,8 +2,9 @@ package com.s.support;
 
 /**
  * Created by liuhaiyang on 2017/5/25.
+ *
+ * 登陆验证（UserDetailService）通过之后，可做自定义操作。
  */
-
 
 import com.s.domain.SysRole;
 import com.s.domain.SysUser;
