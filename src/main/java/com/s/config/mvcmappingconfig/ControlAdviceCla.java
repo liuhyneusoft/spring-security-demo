@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * Created by liuhaiyang on 2017/5/27.
- * 应用到@RequestMapping
+ * 应用到@RequestMapping，控制器增强
  */
 @ControllerAdvice
 public class ControlAdviceCla {

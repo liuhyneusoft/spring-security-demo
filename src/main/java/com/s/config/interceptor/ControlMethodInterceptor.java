@@ -13,6 +13,8 @@ import javax.servlet.http.HttpSession;
 
 /**
  * 定义的拦截器
+ * 继承HandlerInterceptorAdapter，可以非常方便的实现自己的拦截器
+ * MvcConfig 添加这个拦截器
  */
 public class ControlMethodInterceptor extends HandlerInterceptorAdapter {
 

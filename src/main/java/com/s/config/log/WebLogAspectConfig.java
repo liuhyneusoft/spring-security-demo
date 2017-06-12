@@ -13,6 +13,7 @@ import java.text.MessageFormat;
 
 /**
  * Created by liuhaiyang on 2017/5/27.
+ * 定义切面
  */
 
 @Aspect

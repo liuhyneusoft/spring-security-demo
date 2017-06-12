@@ -16,8 +16,9 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
 
     /**  可以写一个@Controller+@RequestMapping效果是一样的。
      *  registry.addViewController("/ctl/xxx").setViewName("/t/xxx");
-     *  /ctl/xxx 对应一个requestMapping
+     *  /ctl/xxx 类似一个requestMapping ，这里可以再controll中没有对应的url
      *  /t/xxx  对应一个html资源
+     *  只是想通过一个URL Mapping然后不经过Controller处理直接跳转到页面上的需求
      */
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
@@ -36,7 +37,7 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
     public void addInterceptors(InterceptorRegistry registry) {
         InterceptorRegistration addInterceptor = registry.addInterceptor(new ControlMethodInterceptor());
 
-        // Exclusion path
+        // Exclusion path  不拦截的url
         addInterceptor.excludePathPatterns("/");
         addInterceptor.excludePathPatterns("/testangular1");
         addInterceptor.excludePathPatterns("/toLogin");

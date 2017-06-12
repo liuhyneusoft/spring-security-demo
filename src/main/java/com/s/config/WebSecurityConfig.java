@@ -50,7 +50,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     /**
      * 指定密码加密所使用的加密器为passwordEncoder()
-       需要将密码加密后写入数据库
+       需要将密码加密后写入数据库，
+        登陆的时候通过customUserDetailsService进行验证，验证通过后返回SecurityUser对象。
      */
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
@@ -63,6 +64,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder(4);
     }
 
+    /**
+     * 登陆验证通过后，可以获取一些登陆信息，用户，角色等。可以自定义一些操作。
+     */
     @Bean
     public LoginSuccessHandler loginSuccessHandler() {
         return new LoginSuccessHandler();
